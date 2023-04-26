@@ -3,13 +3,13 @@
 This configuration file is used to create a VirtualBox virtual machine with Ubuntu 16.04.6 Desktop and install Apache web server on it using Packer.
 
 
-# Prerequisites
+## Prerequisites
 
-    Packer
-    VirtualBox
+-   Packer
+-   VirtualBox
 
 
-# Configuration
+## Configuration
 
 This configuration file uses the 'virtualbox-iso' builder to create a VirtualBox virtual machine with Ubuntu 16.04.6 Desktop. The ISO file is downloaded from the URL specified in 'iso_url' and its SHA256 checksum is verified using 'iso_checksum'.
 
@@ -20,7 +20,7 @@ The 'build' section specifies the source of the image and the provisioner to ins
 The 'provisioner' is set to 'shell' which executes a shell script on the virtual machine. The shell script installs Apache web server and enables its firewall rules.
 
 
-# Usage
+## Usage
 
 To build the virtual machine, run the following command in the directory containing this configuration file:
 
