@@ -2,14 +2,14 @@
 
 
 
-# For the "Packer_Image" file:
+### For the "Packer_Image" file:
 
 Packer build configuration for Amazon EBS
 
 I've created a new Packer build configuration for Amazon EBS that creates an AMI named "Packer-Image-EC2-AWS". This build configuration uses Ubuntu as the base image, and creates an instance with the instance type t2.micro in the us-east-1 region. The source AMI is ami-007855ac798b5175e.
 
 
-# For the Terraform files:
+### For the Terraform files:
 
 Terraform infrastructure configuration for AWS
 
